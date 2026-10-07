@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Gautam stock learner</title>
+<link rel="icon" href="gautam.jpeg">
+
+<!-- ===== Meta Pixel ===== -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2233937230732550');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2233937230732550&ev=PageView&noscript=1"/></noscript>
+<!-- ===== End Meta Pixel ===== -->
+
+<style>
+  :root{ --blue:#2481cc; --blue-dark:#2072b4; --muted:#7d7f81; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{min-height:100%;}
+  body{
+    font-family:Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color:#000; background:#a6c48a url("background.png") center/cover no-repeat fixed;
+    min-height:100vh; -webkit-font-smoothing:antialiased;
+  }
+  .topbar{position:fixed;top:0;left:0;right:0;z-index:10;height:56px;background:rgba(255,255,255,.96);box-shadow:0 1px 3px rgba(0,0,0,.12);display:flex;align-items:center;justify-content:space-between;gap:10px;padding:0 16px;padding-top:env(safe-area-inset-top,0px);}
+  .brand{display:flex;align-items:center;gap:10px;min-width:0;}
+  .brand img{width:34px;height:34px;border-radius:50%;object-fit:cover;flex-shrink:0;}
+  .brand span{font-size:18px;font-weight:500;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .top-btn{background:var(--blue);color:#fff;border:none;border-radius:22px;padding:9px 16px;font-size:13px;font-weight:700;letter-spacing:.3px;text-transform:uppercase;cursor:pointer;flex-shrink:0;font-family:inherit;}
+  .top-btn:hover{background:var(--blue-dark);}
+  .wrap{padding:88px 16px 40px;display:flex;justify-content:center;}
+  .card{width:100%;max-width:400px;background:#fff;border-radius:14px;padding:32px 24px;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.08);height:auto;}
+  .avatar{width:122px;height:122px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 18px;background:#ddd;}
+  .title{font-size:25px;font-weight:700;line-height:1.3;text-transform:uppercase;overflow-wrap:anywhere;}
+  .subs{font-size:15px;color:var(--muted);margin-top:8px;}
+  .desc{margin-top:22px;font-size:15px;line-height:1.7;color:#000;overflow-wrap:anywhere;}
+  .join{margin-top:26px;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--blue);color:#fff;border:none;border-radius:22px;padding:13px 26px;font-size:14px;font-weight:700;letter-spacing:.3px;text-transform:uppercase;cursor:pointer;font-family:inherit;transition:background .15s,transform .1s;-webkit-tap-highlight-color:transparent;}
+  .join:hover{background:var(--blue-dark);}
+  .join:active{transform:scale(.97);}
+  .join img{width:20px;height:20px;border-radius:50%;object-fit:cover;}
+  .disclaimer{margin-top:22px;font-size:11px;line-height:1.5;color:#9a9a9a;}
+  .credit{display:table;margin:10px auto 0;padding:2px 8px;border:1px solid #eceef1;border-radius:6px;background:#f8f9fb;font-size:9.5px;line-height:1.4;color:#9aa0a8;text-decoration:none;}
+  .credit b{color:var(--blue);font-weight:600;}
+  .credit:hover{border-color:var(--blue);}
+  @media (max-width:480px){
+    body{background-attachment:scroll;}
+    .topbar{height:52px;padding:0 12px;}
+    .brand span{font-size:16px;}
+    .top-btn{padding:8px 13px;font-size:12px;}
+    .wrap{padding:74px 14px 30px;}
+    .card{padding:28px 18px;}
+    .avatar{width:110px;height:110px;}
+    .title{font-size:22px;}
+    .subs{font-size:14px;}
+    .desc{font-size:14.5px;}
+    .join{width:100%;padding:14px 20px;font-size:15px;}
+  }
+</style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <img src="telegramlogo.jfif" alt="Telegram ">
+      <span>Telegram </span>
+    </div>
+    <button class="top-btn" data-join>Download</button>
+  </header>
+
+  <main class="wrap">
+    <div class="card">
+      <img class="avatar" src="gautam.jpeg" alt="Market Mentor Official">
+      <h1 class="title">Market Mentor Official</h1>
+      <div class="subs">52 643 subscribers</div>
+      <div class="desc"><b>#NIFTY || #BANKNIFTY (OPTIONS TRADING)</b><br><br>✅ Daily market analysis &amp; levels<br>📈 Disciplined risk-management strategy</div>
+      <button class="join" data-join>
+        <img src="telegramlogo.jfif" alt="">
+        Join Channel
+      </button>
+      <p class="disclaimer">Trading in stock markets involves risk. Content is for educational purposes only and is not investment advice.</p>
+      <!-- Fixed credit -->
+      <a class="credit" href="https://t.me/srsagency" target="_blank" rel="noopener">Ads managed by <b>SRS Tech Agency</b></a>
+    </div>
+  </main>
+
+<script>
+(function(){
+  // ====== CONFIG ======
+  var CFG = {
+    "TELEGRAM_URL": "https://t.me/+-HZctVS9a7ljMTU1",
+    "EVENT_NAME": "Subscribe",
+    "MIN_TIME_MS": 1500,
+    "REQUIRE_INTERACTION": true,
+    "ONCE_PER_SESSION": true,
+    "REDIRECT_DELAY": 400
+  };
+  var PREVIEW = false;
+  var loadTime = Date.now(), humanSignal = false, eventSent = false;
+  function log(type, msg){
+    try{ console.log("[LP] " + msg); }catch(e){}
+    if(PREVIEW){ try{ parent.postMessage({cpb:"log", type:type, msg:msg}, "*"); }catch(e){} }
+  }
+  log("info", "Page loaded");
+
+  // Insaani interaction ke signals (bots aksar ye nahi karte)
+  ["mousemove","touchstart","scroll","keydown","pointerdown","wheel"].forEach(function(ev){
+    window.addEventListener(ev, function(){ if(!humanSignal){ humanSignal = true; log("info", "Human interaction: " + ev); } }, {passive:true, once:true});
+  });
+
+  function alreadySent(){
+    if(!CFG.ONCE_PER_SESSION) return false;
+    try{ return sessionStorage.getItem("lp_evt_sent") === "1"; }catch(e){ return eventSent; }
+  }
+  function markSent(){ eventSent = true; try{ sessionStorage.setItem("lp_evt_sent","1"); }catch(e){} }
+
+  function botReason(){
+    var ua = (navigator.userAgent || "").toLowerCase();
+    if(navigator.webdriver) return "webdriver";
+    if(/bot|crawl|spider|headless|lighthouse|facebookexternalhit|preview/.test(ua)) return "bot user-agent";
+    return "";
+  }
+
+  function goTelegram(){
+    if(PREVIEW){ log("info", "Redirect -> " + CFG.TELEGRAM_URL); return; }
+    window.location.href = CFG.TELEGRAM_URL;
+  }
+
+  function handleClick(e){
+    var elapsed = Date.now() - loadTime, reason = "", bot = botReason();
+    if(!e.isTrusted) reason = "fake (script) click";
+    else if(bot) reason = "bot: " + bot;
+    else if(elapsed < CFG.MIN_TIME_MS) reason = "too fast (" + elapsed + "ms)";
+    else if(CFG.REQUIRE_INTERACTION && !humanSignal) reason = "no scroll/touch before click";
+    else if(alreadySent()) reason = "event already sent this session";
+
+    if(reason){
+      log("skip", CFG.EVENT_NAME + " NOT counted: " + reason);
+      if(!e.isTrusted || bot) return;   // fake/bot clicks ko redirect bhi nahi
+      goTelegram();
+      return;
+    }
+    markSent();
+    log("good", CFG.EVENT_NAME + " counted after " + elapsed + "ms");
+    try{ if(typeof fbq === "function") fbq("track", CFG.EVENT_NAME); }catch(err){}
+    setTimeout(goTelegram, CFG.REDIRECT_DELAY);
+  }
+
+  var btns = document.querySelectorAll("[data-join]");
+  for(var i = 0; i < btns.length; i++) btns[i].addEventListener("click", handleClick);
+})();
+</script>
+</body>
+</html>
